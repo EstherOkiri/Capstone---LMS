@@ -21,13 +21,19 @@ function Navbar() {
         <li className="nav-item">
           <a className="nav-link" href="#">Instructors</a>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/login">Log In</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/register">Register</Link>
-        </li>
-       
+        <li>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User Icon
+            </button>
+            <ul class="dropdown-menu">
+              <li><Link className="dropdown-item" to="/login">Log In</Link></li>
+              <li><Link className="dropdown-item"  to="/register">Register</Link></li>
+              <li><Link className="dropdown-item"  to="/Dashboard">Dashboard</Link></li>
+              <li><Link className="dropdown-item"  to="/Logout">Log Out</Link></li>
+            </ul>
+          </div>
+        </li>       
       </ul>
       </div>
     </div>
