@@ -29,7 +29,7 @@ function Navbar() {
             <ul class="dropdown-menu">
               <li><Link className="dropdown-item" to="/login">Log In</Link></li>
               <li><Link className="dropdown-item"  to="/register">Register</Link></li>
-              <li><Link className="dropdown-item"  to="/Dashboard">Dashboard</Link></li>
+              <li><Link className="dropdown-item"  to="/user-dashboard">Dashboard</Link></li>
               <li><Link className="dropdown-item"  to="/Logout">Log Out</Link></li>
             </ul>
           </div>
