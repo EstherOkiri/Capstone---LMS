@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container">
         <Link className="navbar-brand" to="/">Learning Management System</Link>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <div className="navbar-nav ms-auto">
@@ -22,11 +22,11 @@ function Navbar() {
           <a className="nav-link" href="#">Instructors</a>
         </li>
         <li>
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <div className="dropdown">
+            <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               User Icon
             </button>
-            <ul class="dropdown-menu">
+            <ul className="dropdown-menu">
               <li><Link className="dropdown-item" to="/login">Student LogIn</Link></li>
               <li><Link className="dropdown-item" to="/instructor-login">Instructor LogIn</Link></li>
               <li><Link className="dropdown-item"  to="/register">Student Register</Link></li>
