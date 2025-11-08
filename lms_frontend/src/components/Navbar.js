@@ -27,9 +27,12 @@ function Navbar() {
               User Icon
             </button>
             <ul class="dropdown-menu">
-              <li><Link className="dropdown-item" to="/login">Log In</Link></li>
-              <li><Link className="dropdown-item"  to="/register">Register</Link></li>
-              <li><Link className="dropdown-item"  to="/user-dashboard">Dashboard</Link></li>
+              <li><Link className="dropdown-item" to="/login">Student LogIn</Link></li>
+              <li><Link className="dropdown-item" to="/instructor-login">Instructor LogIn</Link></li>
+              <li><Link className="dropdown-item"  to="/register">Student Register</Link></li>
+              <li><Link className="dropdown-item"  to="/instructor-register">Instructor Register</Link></li>
+              <li><Link className="dropdown-item"  to="/user-dashboard">Student Dashboard</Link></li>
+              <li><Link className="dropdown-item"  to="/instructor-dashboard">Instructor Dashboard</Link></li>
               <li><Link className="dropdown-item"  to="/Logout">Log Out</Link></li>
             </ul>
           </div>
